@@ -21,7 +21,7 @@ export default function HomeScreen() {
             <Text style={tw`text-gray-600`}>New York , NYC</Text>
           </View>
         </View>
-        <View style={[tw`p-3 ml-2 rounded-full `, ,{backgroundColor: themeColors.bgColor(1), borderRadius: 30}] }>
+        <View style={[tw`p-3 ml-2 rounded-full `,{backgroundColor: themeColors.bgColor(1), borderRadius: 30}] }>
           <Icon.Sliders height={20} width={20} strokeWidth={2.5} stroke={"white"}/>
         </View>
        </View>

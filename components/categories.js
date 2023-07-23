@@ -13,7 +13,7 @@ export default function Categories() {
       <ScrollView
         horizontal
         showsHorizontalScrollIndicator={false}
-        style={tw`overlflow-visible`}
+        style={tw`overflow-visible`}
         contentContainerStyle={{
             paddingHorizontal:15
         }}>
