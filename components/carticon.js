@@ -3,11 +3,14 @@ import React from 'react'
 import { themeColors } from '../theme';
 import * as Icon from 'react-native-feather'
 import tw from 'twrnc'
+import { useNavigation } from '@react-navigation/native';
 
 export default function CartIcon() {
+    const navigation= useNavigation();
   return (
     <View style={tw`absolute bottom-5 w-full z-50`}>
         <TouchableOpacity
+        onPress={()=> navigation.navigate('Cart')}
             style={[tw`flex-row justify-between items-center mx-5 rounded-full p-4 py-3 shadow-lg`,{backgroundColor: themeColors.bgColor(1)}]}>
             <View style={[tw`p-2 px-4 rounded-full`, {backgroundColor:'rgba(255,255,255,0.3'}]}>
                 <Text style={tw`font-extrabold text-white text-lg`}>

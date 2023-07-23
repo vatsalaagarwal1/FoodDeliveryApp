@@ -1,4 +1,4 @@
-import { View, Text ,ScrollView, Image, TouchableOpacity} from 'react-native'
+import { View, Text ,ScrollView, StatusBar,Image, TouchableOpacity} from 'react-native'
 import React from 'react'
 import { useNavigation, useRoute } from '@react-navigation/native'
 import tw from 'twrnc'
@@ -16,7 +16,7 @@ export default function RestaurantScreen() {
   return (
     <View>
       <CartIcon/>
-
+      <StatusBar style="light"/>
       <ScrollView>
         <View style={tw`relative`}>
           <Image style={tw`w-full h-72`} source={item.image}/>
