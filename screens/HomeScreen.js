@@ -16,7 +16,7 @@ export default function HomeScreen() {
         <View style={tw`flex-row flex-1 items-center p-3 rounded-full border border-gray-300`}>
           <Icon.Search height='25' width='25' stroke="gray"/>
           <TextInput placeholder='Restaurants' style={tw`ml-2 flex-1 `}/>
-          <View style={tw`flex-row items-center space-x-1 border-0 border-l-2 pl-2 border-gray-300`}>
+          <View style={tw`flex-row items-center border-0 border-l-2 pl-2 border-gray-300`}>
             <Icon.MapPin height="20" width="20" stroke="gray"/>
             <Text style={tw`text-gray-600`}>New York , NYC</Text>
           </View>
