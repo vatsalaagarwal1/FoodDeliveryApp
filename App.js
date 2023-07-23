@@ -8,13 +8,14 @@ import {
   useColorScheme,
   View,
 } from 'react-native';
+import tw from 'twrnc';
 
 const App = () => {
 
 
   return (
-      <View>
-        <Text>Heloooooo</Text>
+      <View style={tw`flex-1 justify-center items-center`}>
+        <Text style={tw`text-red-500 text-4xl`}>Hello World</Text>
       </View>
   );
 }
